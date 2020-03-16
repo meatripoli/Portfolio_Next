@@ -189,8 +189,8 @@ function Projects() {
       lineNumber: 35
     },
     __self: this
-  }, "Employee Management System"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "https://github.com/meatripoli/EmployeeManagementSystem",
+  }, "Employee Directory Search App"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "https://still-taiga-58652.herokuapp.com/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 36
@@ -209,7 +209,7 @@ function Projects() {
     __self: this
   }, __jsx("img", {
     className: "figure-img rounded float-left",
-    src: "/img/employee-tracker.gif",
+    src: "/img/Pic1.png",
     alt: "",
     __source: {
       fileName: _jsxFileName,
@@ -239,7 +239,7 @@ function Projects() {
     },
     __self: this
   }, "Burger Restaurant"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "https://github.com/meatripoli/BurgerRestaurant",
+    href: "https://hidden-peak-22222.herokuapp.com/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 46
@@ -312,4 +312,4 @@ function Projects() {
 /***/ })
 
 })
-//# sourceMappingURL=projects.js.620bb3de96684a33fd82.hot-update.js.map
+//# sourceMappingURL=projects.js.4a9a39a1ff08d9c22ed8.hot-update.js.map

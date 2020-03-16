@@ -4458,8 +4458,8 @@ function Projects() {
       lineNumber: 9
     },
     __self: this
-  }, "GetAway"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "https://meatripoli.github.io/GetAway/",
+  }, "Employee Directory App"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "https://still-taiga-58652.herokuapp.com/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
@@ -4467,8 +4467,6 @@ function Projects() {
     __self: this
   }, __jsx("a", {
     className: "imglink",
-    href: "",
-    alt: "sample image1",
     target: "_blank",
     rel: "noopener noreferrer",
     __source: {
@@ -4478,7 +4476,7 @@ function Projects() {
     __self: this
   }, __jsx("img", {
     className: "figure-img rounded float-left",
-    src: "/img/groupProject1.jpg",
+    src: "/img/Pic1.png",
     alt: "",
     __source: {
       fileName: _jsxFileName,
@@ -4509,8 +4507,6 @@ function Projects() {
     __self: this
   }, __jsx("a", {
     className: "imglink",
-    href: "",
-    alt: "sample image1",
     target: "_blank",
     rel: "noopener noreferrer",
     __source: {
@@ -4558,8 +4554,6 @@ function Projects() {
     __self: this
   }, __jsx("a", {
     className: "imglink",
-    href: "",
-    alt: "sample image3",
     target: "_blank",
     rel: "noopener noreferrer",
     __source: {
@@ -4591,7 +4585,7 @@ function Projects() {
       lineNumber: 35
     },
     __self: this
-  }, "Employee Management System"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }, "Employee Directory Search App"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "https://github.com/meatripoli/EmployeeManagementSystem",
     __source: {
       fileName: _jsxFileName,
@@ -4600,8 +4594,6 @@ function Projects() {
     __self: this
   }, __jsx("a", {
     className: "imglink",
-    href: "",
-    alt: "sample image4",
     target: "_blank",
     rel: "noopener noreferrer",
     __source: {
@@ -4641,7 +4633,7 @@ function Projects() {
     },
     __self: this
   }, "Burger Restaurant"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "https://github.com/meatripoli/BurgerRestaurant",
+    href: "https://hidden-peak-22222.herokuapp.com/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 46
@@ -4649,8 +4641,6 @@ function Projects() {
     __self: this
   }, __jsx("a", {
     className: "imglink",
-    href: "",
-    alt: "sample image5",
     target: "_blank",
     rel: "noopener noreferrer",
     __source: {
@@ -4691,7 +4681,6 @@ function Projects() {
     __self: this
   }, __jsx("a", {
     className: "imglink",
-    alt: "sample image2",
     target: "_blank",
     rel: "noopener noreferrer",
     __source: {
@@ -4713,7 +4702,7 @@ function Projects() {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!***************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fprojects&absolutePagePath=%2FUsers%2Fmeatripoli%2FClassWork%2FPortfolio_NextJS%2Fpages%2Fprojects.js ***!
   \***************************************************************************************************************************************************/
@@ -4736,5 +4725,5 @@ module.exports = dll_0fb095e325d7ebf261c3;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=projects.js.map

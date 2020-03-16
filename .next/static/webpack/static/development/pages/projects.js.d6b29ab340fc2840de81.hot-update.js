@@ -76,7 +76,7 @@ function Projects() {
     __self: this
   }, __jsx("img", {
     className: "figure-img rounded float-left",
-    src: "",
+    src: "/img/groupProject1.jpg",
     alt: "",
     __source: {
       fileName: _jsxFileName,
@@ -118,7 +118,7 @@ function Projects() {
     __self: this
   }, __jsx("img", {
     className: "figure-img rounded float-left",
-    src: "",
+    src: "/img/Pic10.png",
     alt: "",
     __source: {
       fileName: _jsxFileName,
@@ -167,7 +167,7 @@ function Projects() {
     __self: this
   }, __jsx("img", {
     className: "figure-img rounded float-left",
-    src: "",
+    src: "/img/Pic11.png",
     alt: "",
     __source: {
       fileName: _jsxFileName,
@@ -189,8 +189,8 @@ function Projects() {
       lineNumber: 35
     },
     __self: this
-  }, "Employee Management System"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "https://github.com/meatripoli/EmployeeManagementSystem",
+  }, "Employee Directory Search App"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "https://still-taiga-58652.herokuapp.com/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 36
@@ -209,7 +209,7 @@ function Projects() {
     __self: this
   }, __jsx("img", {
     className: "figure-img rounded float-left",
-    src: "",
+    src: "/img/Pic1.png",
     alt: "",
     __source: {
       fileName: _jsxFileName,
@@ -258,7 +258,7 @@ function Projects() {
     __self: this
   }, __jsx("img", {
     className: "figure-img rounded float-left",
-    src: "",
+    src: "/img/Pic7.png",
     alt: "",
     __source: {
       fileName: _jsxFileName,
@@ -289,7 +289,6 @@ function Projects() {
     __self: this
   }, __jsx("a", {
     className: "imglink",
-    href: "",
     alt: "sample image2",
     target: "_blank",
     rel: "noopener noreferrer",
@@ -300,7 +299,7 @@ function Projects() {
     __self: this
   }, __jsx("img", {
     className: "figure-img rounded float-left",
-    src: "",
+    src: "/img/Pic9.png",
     alt: "",
     __source: {
       fileName: _jsxFileName,
@@ -313,4 +312,4 @@ function Projects() {
 /***/ })
 
 })
-//# sourceMappingURL=projects.js.357f0ece6334152c9138.hot-update.js.map
+//# sourceMappingURL=projects.js.d6b29ab340fc2840de81.hot-update.js.map

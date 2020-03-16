@@ -56,8 +56,8 @@ function Projects() {
       lineNumber: 9
     },
     __self: this
-  }, "GetAway"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "https://meatripoli.github.io/GetAway/",
+  }, "Employee Directory App"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "https://still-taiga-58652.herokuapp.com/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
@@ -65,8 +65,6 @@ function Projects() {
     __self: this
   }, __jsx("a", {
     className: "imglink",
-    href: "",
-    alt: "sample image1",
     target: "_blank",
     rel: "noopener noreferrer",
     __source: {
@@ -76,7 +74,7 @@ function Projects() {
     __self: this
   }, __jsx("img", {
     className: "figure-img rounded float-left",
-    src: "",
+    src: "/img/Pic1.png",
     alt: "",
     __source: {
       fileName: _jsxFileName,
@@ -189,7 +187,7 @@ function Projects() {
       lineNumber: 35
     },
     __self: this
-  }, "Employee Management System"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }, "Employee Directory Search App"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "https://github.com/meatripoli/EmployeeManagementSystem",
     __source: {
       fileName: _jsxFileName,
@@ -312,4 +310,4 @@ function Projects() {
 /***/ })
 
 })
-//# sourceMappingURL=projects.js.5a5d92ed40745ffbc04a.hot-update.js.map
+//# sourceMappingURL=projects.js.a4ca83633c659905f965.hot-update.js.map

@@ -4613,7 +4613,7 @@ function NavBar() {
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!****************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fmeatripoli%2FClassWork%2FPortfolio_NextJS%2Fpages%2Findex.js ***!
   \****************************************************************************************************************************************/
@@ -4636,5 +4636,5 @@ module.exports = dll_0fb095e325d7ebf261c3;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
