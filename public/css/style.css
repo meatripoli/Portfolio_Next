@@ -1,0 +1,59 @@
+#about_pic{
+    width: 200px;
+    height: 250px;
+    border-color: black;
+    border-style: solid;
+}
+#row-about{
+    font-weight: bold;   
+}
+.container{
+    background: #ffffff;
+    margin-top: 40px;
+    padding: 30px 40px;
+    position: relative;
+}
+.col{
+    border-style: solid;
+    border-color: aquamarine;
+}
+p{
+    margin-left: 20px;
+    float: left;
+    width: 50%;
+}
+.card{
+    width: 15rem;
+    position: fixed;
+}
+.link{
+    font-weight: 100;
+}
+
+@media screen and (min-width: 450px){
+    footer{
+        display: none; 
+    }
+}
+@media screen and (max-width: 670px){
+    .card{
+        display: none;       
+    }
+}
+@media screen and (max-width: 450px){
+    p{
+        margin-top: 20px;
+    }
+    footer{ 
+        width: 100%;
+        color: #ffffff;
+        padding-left: 20%;
+        padding-top: 3%;
+    }
+    .fa,.fas{
+        font-size: 15px;
+        float: left;
+    }
+}
+
+

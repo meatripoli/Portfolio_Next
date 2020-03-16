@@ -10,12 +10,12 @@ export default function Home() {
                         <h1 id="row-about">ABOUT ME</h1>
                     </div>
                     <div className="row">
-                        <p>++add pic++</p>                  
+                        <img id="about_pic" src="/img/Me.jpg" alt="pic"/>                 
                         <p> 
                             Software Engineer with 3 years of experience as a 
                             Business Intelligence Developer. Experienced as a 
                             technical trainer with 3 years of formal instruction in both 
-                            stand-up and classNameroom settings. Eagered about approaching programming challenges from 
+                            stand-up and classroom settings. Eagered about approaching programming challenges from 
                             different angles and collaborating with others to create 
                             meaningful web applications. Excited to leverage my skills as 
                             part of a fast-paced, quality-driven team in order to build 

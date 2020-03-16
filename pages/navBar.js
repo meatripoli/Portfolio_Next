@@ -19,11 +19,6 @@ export default function NavBar() {
                         <a className="nav-link" id="navpcolor" href="portfolio.html">Projects</a>
                     </Link>
                 </li>
-                <li className="nav-item">
-                    <Link href="">
-                        <a className="nav-link" id="navccolor" href="contact.html">Contact</a>
-                    </Link>
-                </li>
             </ul>
         </div>
     </nav>);

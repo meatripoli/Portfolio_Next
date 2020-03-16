@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1889,30 +1889,7 @@ function NavBar() {
       lineNumber: 19
     },
     __self: this
-  }, "Projects"))), __jsx("li", {
-    className: "nav-item",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "nav-link",
-    id: "navccolor",
-    href: "contact.html",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, "Contact"))))));
+  }, "Projects"))))));
 }
 
 /***/ }),
@@ -1974,7 +1951,7 @@ function Projects() {
     },
     __self: this
   }, "GetAway"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "",
+    href: "https://meatripoli.github.io/GetAway/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
@@ -1982,7 +1959,7 @@ function Projects() {
     __self: this
   }, __jsx("a", {
     className: "imglink",
-    href: "https://meatripoli.github.io/GetAway/",
+    href: "",
     alt: "sample image1",
     target: "_blank",
     rel: "noopener noreferrer",
@@ -1993,7 +1970,7 @@ function Projects() {
     __self: this
   }, __jsx("img", {
     className: "figure-img rounded float-left",
-    src: "",
+    src: "/img/groupProject1.jpg",
     alt: "",
     __source: {
       fileName: _jsxFileName,
@@ -2016,7 +1993,7 @@ function Projects() {
     },
     __self: this
   }, "HiFi"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "",
+    href: "https://nameless-lowlands-48961.herokuapp.com/login",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
@@ -2024,7 +2001,7 @@ function Projects() {
     __self: this
   }, __jsx("a", {
     className: "imglink",
-    href: "https://nameless-lowlands-48961.herokuapp.com/login",
+    href: "",
     alt: "sample image1",
     target: "_blank",
     rel: "noopener noreferrer",
@@ -2035,7 +2012,7 @@ function Projects() {
     __self: this
   }, __jsx("img", {
     className: "figure-img rounded float-left",
-    src: "",
+    src: "/img/Pic10.png",
     alt: "",
     __source: {
       fileName: _jsxFileName,
@@ -2065,7 +2042,7 @@ function Projects() {
     },
     __self: this
   }, "Password Generator"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "",
+    href: "https://meatripoli.github.io/PasswordGenerator/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 28
@@ -2073,7 +2050,7 @@ function Projects() {
     __self: this
   }, __jsx("a", {
     className: "imglink",
-    href: "https://meatripoli.github.io/PasswordGenerator/",
+    href: "",
     alt: "sample image3",
     target: "_blank",
     rel: "noopener noreferrer",
@@ -2084,7 +2061,7 @@ function Projects() {
     __self: this
   }, __jsx("img", {
     className: "figure-img rounded float-left",
-    src: "",
+    src: "/img/Pic11.png",
     alt: "",
     __source: {
       fileName: _jsxFileName,
@@ -2107,7 +2084,7 @@ function Projects() {
     },
     __self: this
   }, "Employee Management System"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "",
+    href: "https://github.com/meatripoli/EmployeeManagementSystem",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 36
@@ -2115,7 +2092,7 @@ function Projects() {
     __self: this
   }, __jsx("a", {
     className: "imglink",
-    href: "https://github.com/meatripoli/EmployeeManagementSystem",
+    href: "",
     alt: "sample image4",
     target: "_blank",
     rel: "noopener noreferrer",
@@ -2126,7 +2103,7 @@ function Projects() {
     __self: this
   }, __jsx("img", {
     className: "figure-img rounded float-left",
-    src: "",
+    src: "/img/employee-tracker.gif",
     alt: "",
     __source: {
       fileName: _jsxFileName,
@@ -2156,7 +2133,7 @@ function Projects() {
     },
     __self: this
   }, "Burger Restaurant"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "",
+    href: "https://github.com/meatripoli/BurgerRestaurant",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 46
@@ -2164,7 +2141,7 @@ function Projects() {
     __self: this
   }, __jsx("a", {
     className: "imglink",
-    href: "https://github.com/meatripoli/BurgerRestaurant",
+    href: "",
     alt: "sample image5",
     target: "_blank",
     rel: "noopener noreferrer",
@@ -2175,7 +2152,7 @@ function Projects() {
     __self: this
   }, __jsx("img", {
     className: "figure-img rounded float-left",
-    src: "",
+    src: "/img/Pic7.png",
     alt: "",
     __source: {
       fileName: _jsxFileName,
@@ -2198,7 +2175,7 @@ function Projects() {
     },
     __self: this
   }, "Mortgage Calculator"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "",
+    href: "https://github.com/meatripoli/ChallengeMortgageCalculator",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 54
@@ -2206,7 +2183,6 @@ function Projects() {
     __self: this
   }, __jsx("a", {
     className: "imglink",
-    href: "https://github.com/meatripoli/ChallengeMortgageCalculator",
     alt: "sample image2",
     target: "_blank",
     rel: "noopener noreferrer",
@@ -2217,7 +2193,7 @@ function Projects() {
     __self: this
   }, __jsx("img", {
     className: "figure-img rounded float-left",
-    src: "",
+    src: "/img/Pic9.png",
     alt: "",
     __source: {
       fileName: _jsxFileName,
@@ -2229,7 +2205,7 @@ function Projects() {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!*********************************!*\
   !*** multi ./pages/projects.js ***!
   \*********************************/

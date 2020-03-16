@@ -4342,19 +4342,22 @@ function Home() {
       lineNumber: 12
     },
     __self: this
-  }, __jsx("p", {
+  }, __jsx("img", {
+    id: "about_pic",
+    src: "/img/Me.jpg",
+    alt: "pic",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     },
     __self: this
-  }, "++add pic++"), __jsx("p", {
+  }), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
     },
     __self: this
-  }, "Software Engineer with 3 years of experience as a Business Intelligence Developer. Experienced as a technical trainer with 3 years of formal instruction in both stand-up and classNameroom settings. Eagered about approaching programming challenges from different angles and collaborating with others to create meaningful web applications. Excited to leverage my skills as part of a fast-paced, quality-driven team in order to build better experiences on the web."))), __jsx("div", {
+  }, "Software Engineer with 3 years of experience as a Business Intelligence Developer. Experienced as a technical trainer with 3 years of formal instruction in both stand-up and classroom settings. Eagered about approaching programming challenges from different angles and collaborating with others to create meaningful web applications. Excited to leverage my skills as part of a fast-paced, quality-driven team in order to build better experiences on the web."))), __jsx("div", {
     className: "col-3",
     __source: {
       fileName: _jsxFileName,
@@ -4605,35 +4608,12 @@ function NavBar() {
       lineNumber: 19
     },
     __self: this
-  }, "Projects"))), __jsx("li", {
-    className: "nav-item",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "nav-link",
-    id: "navccolor",
-    href: "contact.html",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, "Contact"))))));
+  }, "Projects"))))));
 }
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!****************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fmeatripoli%2FClassWork%2FPortfolio_NextJS%2Fpages%2Findex.js ***!
   \****************************************************************************************************************************************/
@@ -4656,5 +4636,5 @@ module.exports = dll_0fb095e325d7ebf261c3;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

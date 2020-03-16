@@ -1,0 +1,14 @@
+.container{
+    background: #ffffff;
+    margin-top: 40px;
+    padding: 30px 40px;
+}
+
+.btn{
+    background: darkslategrey;
+    border-style: none;
+}
+.btn:hover{
+    background: #ffffff; 
+    color: black;
+}
