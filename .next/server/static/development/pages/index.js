@@ -106,7 +106,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap */ "react-bootstrap");
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/meatripoli/ClassWork/Portfolio_NextJS/components/AboutTab.js";
+var _jsxFileName = "/Users/meatripoli/ClassWork/PortfolioNextjs/components/AboutTab.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -286,7 +286,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/meatripoli/ClassWork/Portfolio_NextJS/components/Background.js";
+var _jsxFileName = "/Users/meatripoli/ClassWork/PortfolioNextjs/components/Background.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 /* harmony default export */ __webpack_exports__["default"] = (() => {
@@ -331,7 +331,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _SkillsTab__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./SkillsTab */ "./components/SkillsTab.js");
 /* harmony import */ var _AboutTab__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./AboutTab */ "./components/AboutTab.js");
 /* harmony import */ var _Projects__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Projects */ "./components/Projects.js");
-var _jsxFileName = "/Users/meatripoli/ClassWork/Portfolio_NextJS/components/MyJumbotron.js";
+var _jsxFileName = "/Users/meatripoli/ClassWork/PortfolioNextjs/components/MyJumbotron.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -608,7 +608,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap */ "react-bootstrap");
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/meatripoli/ClassWork/Portfolio_NextJS/components/Projects.js";
+var _jsxFileName = "/Users/meatripoli/ClassWork/PortfolioNextjs/components/Projects.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -977,7 +977,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap */ "react-bootstrap");
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/meatripoli/ClassWork/Portfolio_NextJS/components/SkillsTab.js";
+var _jsxFileName = "/Users/meatripoli/ClassWork/PortfolioNextjs/components/SkillsTab.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -1370,7 +1370,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Background__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Background */ "./components/Background.js");
 /* harmony import */ var _components_MyJumbotron__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/MyJumbotron */ "./components/MyJumbotron.js");
-var _jsxFileName = "/Users/meatripoli/ClassWork/Portfolio_NextJS/pages/index.js";
+var _jsxFileName = "/Users/meatripoli/ClassWork/PortfolioNextjs/pages/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -1402,7 +1402,7 @@ function Home() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/meatripoli/ClassWork/Portfolio_NextJS/pages/index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! /Users/meatripoli/ClassWork/PortfolioNextjs/pages/index.js */"./pages/index.js");
 
 
 /***/ }),

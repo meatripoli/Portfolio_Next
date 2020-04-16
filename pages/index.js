@@ -1,9 +1,9 @@
-import Background from '../components/Background';
+import AnimatedBackground from '../components/AnimatedBackground';
 import MyJumbotron from '../components/MyJumbotron';
 
 export default function Home() {
     return (<> 
-        <Background/>
+        <AnimatedBackground/>
         <MyJumbotron/>
         </>
     );

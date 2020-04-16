@@ -882,7 +882,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/document */ "./node_modules/next/document.js");
 /* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_document__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/meatripoli/ClassWork/Portfolio_NextJS/pages/_document.js";
+var _jsxFileName = "/Users/meatripoli/ClassWork/PortfolioNextjs/pages/_document.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -902,69 +902,78 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
 
   render() {
     return __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["Html"], {
+      __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 10
-      },
-      __self: this
+        lineNumber: 10,
+        columnNumber: 13
+      }
     }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["Head"], {
+      __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 11
-      },
-      __self: this
+        lineNumber: 11,
+        columnNumber: 17
+      }
     }, __jsx("link", {
       rel: "stylesheet",
       href: "https://use.fontawesome.com/releases/v5.12.1/css/all.css",
+      __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 12
-      },
-      __self: this
+        lineNumber: 12,
+        columnNumber: 21
+      }
     }), __jsx("link", {
       rel: "stylesheet",
       href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
+      __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 13
-      },
-      __self: this
+        lineNumber: 13,
+        columnNumber: 21
+      }
     }), __jsx("link", {
       href: "https://fonts.googleapis.com/css?family=Cinzel:400,700,900&display=swap",
       rel: "stylesheet",
+      __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 14
-      },
-      __self: this
+        lineNumber: 14,
+        columnNumber: 21
+      }
     }), __jsx("link", {
       rel: "stylesheet",
       href: "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",
       integrity: "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T",
       crossOrigin: "anonymous",
+      __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 15
-      },
-      __self: this
+        lineNumber: 15,
+        columnNumber: 21
+      }
     })), __jsx("body", {
+      __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 17
-      },
-      __self: this
+        lineNumber: 17,
+        columnNumber: 17
+      }
     }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["Main"], {
+      __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18
-      },
-      __self: this
+        lineNumber: 18,
+        columnNumber: 21
+      }
     }), __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["NextScript"], {
+      __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 19
-      },
-      __self: this
+        lineNumber: 19,
+        columnNumber: 21
+      }
     })));
   }
 
