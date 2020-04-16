@@ -27,7 +27,7 @@ export default () => {
                                     but my career path quickly moved to more software roles.
                                 </p>
                                 <p>
-                                    Outside of my professional career my main hobbies is training dogs. I have participated 
+                                    Outside of my professional career, my main hobby involves training dogs. I have participated 
                                     in agility and tracking events with my personal dog and have helped dog owners with obedience 
                                     training and dog behavior modification.
                                 </p>

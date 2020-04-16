@@ -27,26 +27,18 @@ export default () => {
                 </Nav>
             </Card.Body>
             <footer className="text-muted" >
-                    <div className='footerIcon'>
-                        <i className="fa fa-linkedin-square">
-                            <a href="https://www.linkedin.com/in/maria-tripoli-b836b167/" className="link" rel="noopener noreferrer"></a>
-                        </i>
-                    </div>
-                    <div className='footerIcon'>
-                        <i className="fa fa-github">
-                            <a href="https://github.com/meatripoli" className="link"></a>
-                        </i> 
-                    </div> 
-                    <div className='footerIcon'> 
-                        <i className="fa fa-stack-overflow">
-                            <a href="https://stackoverflow.com/users/11912060/maria?tab=profile" className="link" rel="noopener noreferrer"></a>
-                        </i> 
-                    </div>
-                    <div className='footerIcon'>
-                        <i className="fas fa-file-pdf">
-                            <a href="https://drive.google.com/file/d/1SABfCkzigMpCX7RwpzlwSec1IUrbL7l7/view?usp=sharing" className="link" rel="noopener noreferrer"></a>
-                        </i> 
-                    </div>
+                <a href="https://www.linkedin.com/in/maria-tripoli-b836b167/" target="_blank" className="link footerIcon" rel="noopener noreferrer">
+                    <i className="fa fa-linkedin-square"></i>
+                </a>         
+                <a href="https://github.com/meatripoli" target="_blank" className="link footerIcon">
+                    <i className="fa fa-github"></i>
+                </a>
+                <a href="https://stackoverflow.com/users/11912060/maria?tab=profile" target="_blank" className="link footerIcon" rel="noopener noreferrer">
+                    <i className="fa fa-stack-overflow"></i>
+                </a>              
+                <a href="https://drive.google.com/file/d/1SABfCkzigMpCX7RwpzlwSec1IUrbL7l7/view?usp=sharing" target="_blank" className="link footerIcon" rel="noopener noreferrer">
+                    <i className="fas fa-file-pdf"></i> 
+                </a>
             </footer>
         </Card>
     </div>

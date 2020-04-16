@@ -136,7 +136,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
       lineNumber: 29,
       columnNumber: 33
     }
-  }, "Outside of my professional career my main hobbies is training dogs. I have participated in agility and tracking events with my personal dog and have helped dog owners with obedience training and dog behavior modification.")), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], {
+  }, "Outside of my professional career, my main hobby involves training dogs. I have participated in agility and tracking events with my personal dog and have helped dog owners with obedience training and dog behavior modification.")), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -184,10 +184,10 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 /***/ }),
 
-/***/ "./components/Background.js":
-/*!**********************************!*\
-  !*** ./components/Background.js ***!
-  \**********************************/
+/***/ "./components/AnimatedBackground.js":
+/*!******************************************!*\
+  !*** ./components/AnimatedBackground.js ***!
+  \******************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -196,7 +196,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 var _this = undefined,
-    _jsxFileName = "/Users/meatripoli/ClassWork/PortfolioNextjs/components/Background.js";
+    _jsxFileName = "/Users/meatripoli/ClassWork/PortfolioNextjs/components/AnimatedBackground.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -399,13 +399,16 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
       lineNumber: 29,
       columnNumber: 13
     }
-  }, __jsx("div", {
-    className: "footerIcon",
+  }, __jsx("a", {
+    href: "https://www.linkedin.com/in/maria-tripoli-b836b167/",
+    target: "_blank",
+    className: "link footerIcon",
+    rel: "noopener noreferrer",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30,
-      columnNumber: 21
+      columnNumber: 17
     }
   }, __jsx("i", {
     className: "fa fa-linkedin-square",
@@ -413,96 +416,65 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __source: {
       fileName: _jsxFileName,
       lineNumber: 31,
-      columnNumber: 25
-    }
-  }, __jsx("a", {
-    href: "https://www.linkedin.com/in/maria-tripoli-b836b167/",
-    className: "link",
-    rel: "noopener noreferrer",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 29
-    }
-  }))), __jsx("div", {
-    className: "footerIcon",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
       columnNumber: 21
+    }
+  })), __jsx("a", {
+    href: "https://github.com/meatripoli",
+    target: "_blank",
+    className: "link footerIcon",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 17
     }
   }, __jsx("i", {
     className: "fa fa-github",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 25
-    }
-  }, __jsx("a", {
-    href: "https://github.com/meatripoli",
-    className: "link",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 29
-    }
-  }))), __jsx("div", {
-    className: "footerIcon",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40,
+      lineNumber: 34,
       columnNumber: 21
+    }
+  })), __jsx("a", {
+    href: "https://stackoverflow.com/users/11912060/maria?tab=profile",
+    target: "_blank",
+    className: "link footerIcon",
+    rel: "noopener noreferrer",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 17
     }
   }, __jsx("i", {
     className: "fa fa-stack-overflow",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
-      columnNumber: 25
+      lineNumber: 37,
+      columnNumber: 21
     }
-  }, __jsx("a", {
-    href: "https://stackoverflow.com/users/11912060/maria?tab=profile",
-    className: "link",
+  })), __jsx("a", {
+    href: "https://drive.google.com/file/d/1SABfCkzigMpCX7RwpzlwSec1IUrbL7l7/view?usp=sharing",
+    target: "_blank",
+    className: "link footerIcon",
     rel: "noopener noreferrer",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 29
-    }
-  }))), __jsx("div", {
-    className: "footerIcon",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45,
-      columnNumber: 21
+      lineNumber: 39,
+      columnNumber: 17
     }
   }, __jsx("i", {
     className: "fas fa-file-pdf",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
-      columnNumber: 25
+      lineNumber: 40,
+      columnNumber: 21
     }
-  }, __jsx("a", {
-    href: "https://drive.google.com/file/d/1SABfCkzigMpCX7RwpzlwSec1IUrbL7l7/view?usp=sharing",
-    className: "link",
-    rel: "noopener noreferrer",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47,
-      columnNumber: 29
-    }
-  }))))));
+  })))));
 });
 
 /***/ }),
@@ -622,6 +594,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     }
   }, __jsx("a", {
     href: "https://dog-training-manager.herokuapp.com/dogs",
+    target: "_blank",
     className: "carouselStyle",
     rel: "noopener noreferrer",
     __self: _this,
@@ -632,6 +605,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     }
   }, "Demo"), __jsx("a", {
     href: "https://github.com/meatripoli/FinalProject_Next",
+    target: "_blank",
     className: "carouselStyle",
     __self: _this,
     __source: {
@@ -683,6 +657,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     }
   }, __jsx("a", {
     href: "https://still-taiga-58652.herokuapp.com/",
+    target: "_blank",
     className: "carouselStyle",
     rel: "noopener noreferrer",
     __self: _this,
@@ -693,6 +668,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     }
   }, "Demo"), __jsx("a", {
     href: "https://github.com/meatripoli/EmployeeDirectory_React",
+    target: "_blank",
     className: "carouselStyle",
     __self: _this,
     __source: {
@@ -744,6 +720,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     }
   }, __jsx("a", {
     href: "https://nameless-lowlands-48961.herokuapp.com/login",
+    target: "_blank",
     className: "carouselStyle",
     rel: "noopener noreferrer",
     __self: _this,
@@ -754,6 +731,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     }
   }, "Demo"), __jsx("a", {
     href: "https://github.com/meatripoli/HiFi",
+    target: "_blank",
     className: "carouselStyle",
     __self: _this,
     __source: {
@@ -805,6 +783,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     }
   }, __jsx("a", {
     href: "https://meatripoli.github.io/PasswordGenerator/",
+    target: "_blank",
     className: "carouselStyle",
     rel: "noopener noreferrer",
     __self: _this,
@@ -815,6 +794,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     }
   }, "Demo"), __jsx("a", {
     href: "https://github.com/meatripoli/PasswordGenerator",
+    target: "_blank",
     className: "carouselStyle",
     __self: _this,
     __source: {
@@ -866,6 +846,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     }
   }, __jsx("a", {
     href: "https://github.com/meatripoli/ChallengeMortgageCalculator",
+    target: "_blank",
     className: "carouselStyle",
     __self: _this,
     __source: {
@@ -17411,7 +17392,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Home; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Background__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Background */ "./components/Background.js");
+/* harmony import */ var _components_AnimatedBackground__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/AnimatedBackground */ "./components/AnimatedBackground.js");
 /* harmony import */ var _components_MyJumbotron__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/MyJumbotron */ "./components/MyJumbotron.js");
 var _jsxFileName = "/Users/meatripoli/ClassWork/PortfolioNextjs/pages/index.js";
 
@@ -17419,7 +17400,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 function Home() {
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_components_Background__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_components_AnimatedBackground__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
