@@ -19,6 +19,7 @@ body {
     z-index: -100;
 }
 .centeredJumbotron{
+    color: darkslateblue;
     margin-top: 25vh;
     min-height: 50vh; 
     /* Make it a flex container */
@@ -42,7 +43,27 @@ body {
     -webkit-justify-content : center;
     justify-content : center;
 }
-    
+.footerIcon{
+    display:inline;
+    font-size: 3rem;
+    padding-right: 20px;
+    color: darkslateblue;
+} 
+.skilsIcon{
+    width:70px;
+    height:70px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    display:inline;
+}
+.carouselStyle{
+    color: darkslateblue;
+    padding-right: 10px;
+}
+.figure-img{
+    width: 700px;
+    height: 400px;
+}   
 @media screen and (max-width: 670px){
     html{
         background-color: white;

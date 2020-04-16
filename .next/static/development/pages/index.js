@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
-/***/ "./components/AboutModal.js":
-/*!**********************************!*\
-  !*** ./components/AboutModal.js ***!
-  \**********************************/
+/***/ "./components/AboutTab.js":
+/*!********************************!*\
+  !*** ./components/AboutTab.js ***!
+  \********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11,14 +11,12 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap/Modal */ "./node_modules/react-bootstrap/esm/Modal.js");
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
 var _this = undefined,
-    _jsxFileName = "/Users/meatripoli/ClassWork/Portfolio_NextJS/components/AboutModal.js";
+    _jsxFileName = "/Users/meatripoli/ClassWork/Portfolio_NextJS/components/AboutTab.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
@@ -30,16 +28,19 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     return show ? setShow(false) : setShow(true);
   };
 
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Button"], {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Button"], {
     variant: "link",
     onClick: handleModal,
+    style: {
+      color: 'darkslateblue'
+    },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
+      lineNumber: 8,
       columnNumber: 9
     }
-  }, "About"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Card"], {
+  }, "About"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Card"], {
     style: show ? {
       display: 'inherit',
       background: 'none',
@@ -51,47 +52,40 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10,
+      lineNumber: 9,
       columnNumber: 9
     }
-  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Card"].Body, {
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Card"].Body, {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 13
+    }
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11,
-      columnNumber: 13
+      columnNumber: 17
     }
-  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Card"].Text, {
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12,
-      columnNumber: 17
-    }
-  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13,
       columnNumber: 21
     }
-  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Row"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 25
-    }
-  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
     xs: 6,
     md: 4,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 29
+      lineNumber: 13,
+      columnNumber: 25
     }
-  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Image"], {
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Image"], {
     roundedCircle: true,
     src: "/img/Me.jpg",
     alt: "pic",
@@ -102,69 +96,90 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 33
+      lineNumber: 14,
+      columnNumber: 29
     }
-  })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
+  })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
     xs: 12,
     md: 8,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
-      columnNumber: 29
+      lineNumber: 16,
+      columnNumber: 25
     }
-  }, __jsx("div", {
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
-      columnNumber: 33
+      lineNumber: 17,
+      columnNumber: 29
     }
   }, __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 37
+      lineNumber: 18,
+      columnNumber: 33
     }
   }, "Hi! I'm Maria, an inquisitive, bilingual web developer who enjoys solving programming challenges, collaboration, and excited to leverage my skills as part of a fast-paced, quality-driven team in order to build better experiences on the web."), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 37
+      lineNumber: 24,
+      columnNumber: 33
     }
   }, "I was born in Italy and moved to the United States when I was 10 years old. I graduated from Florida Tech with a BS degree in Electrical Engineering but my career path quickly moved to more software roles."), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 37
+      lineNumber: 29,
+      columnNumber: 33
     }
-  }, "Outside of my professional career my main hobbies is training dogs. I have participated in agility and tracking events with my personal dog and have helped dog owners with obedience training and dog behavior modification."), __jsx("p", {
+  }, "Outside of my professional career my main hobbies is training dogs. I have participated in agility and tracking events with my personal dog and have helped dog owners with obedience training and dog behavior modification.")), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 29
+    }
+  }, __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 36,
-      columnNumber: 37
+      columnNumber: 33
     }
-  }, "GET IN TOUCH!"), __jsx("a", {
-    href: "mailto:meatripoli@gmail.com?subject=Hi%20there!",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 37
-    }
-  }, "meatripoli@gmail.com"), __jsx("p", {
+  }, "GET IN TOUCH!")), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 40,
-      columnNumber: 37
+      columnNumber: 29
     }
-  }, "(321) -431-0659")))))))));
+  }, __jsx("a", {
+    href: "mailto:meatripoli@gmail.com?subject=Hi%20there!",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 33
+    }
+  }, "meatripoli@gmail.com")), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 29
+    }
+  }, __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 33
+    }
+  }, "(321) 431-0659"))))))));
 });
 
 /***/ }),
@@ -223,12 +238,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
-/* harmony import */ var _AboutModal__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./AboutModal */ "./components/AboutModal.js");
+/* harmony import */ var _SkillsTab__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./SkillsTab */ "./components/SkillsTab.js");
+/* harmony import */ var _AboutTab__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./AboutTab */ "./components/AboutTab.js");
+/* harmony import */ var _Projects__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Projects */ "./components/Projects.js");
 var _this = undefined,
     _jsxFileName = "/Users/meatripoli/ClassWork/Portfolio_NextJS/components/MyJumbotron.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
@@ -240,7 +259,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6,
+      lineNumber: 7,
       columnNumber: 13
     }
   }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -252,119 +271,1005 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7,
+      lineNumber: 8,
       columnNumber: 9
     }
   }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Card"].Body, {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8,
+      lineNumber: 9,
       columnNumber: 13
     }
   }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Card"].Title, {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
+      lineNumber: 10,
       columnNumber: 17
     }
   }, __jsx("h1", {
-    className: true,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10,
+      lineNumber: 11,
       columnNumber: 21
     }
   }, "M", __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
+      lineNumber: 12,
       columnNumber: 26
     }
   }, "A"), "R", __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
+      lineNumber: 12,
       columnNumber: 41
     }
   }, "I"), "A", __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
+      lineNumber: 12,
       columnNumber: 56
     }
   }, " "), " T", __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
+      lineNumber: 12,
       columnNumber: 72
     }
   }, "R"), "I", __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 13,
       columnNumber: 25
     }
   }, "P"), "O", __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 13,
       columnNumber: 40
     }
-  }, "L"), "I")), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Card"].Text, {
+  }, "L"), "I"), "FULL-STACK DEVELOPER"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Nav"], {
+    variant: "tabs",
+    className: "justify-content-center",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 17
+    }
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Nav"].Item, {
+    as: "li",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 21
+    }
+  }, __jsx(_AboutTab__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 25
+    }
+  })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Nav"].Item, {
+    as: "li",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 21
+    }
+  }, __jsx(_SkillsTab__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 25
+    }
+  })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Nav"].Item, {
+    as: "li",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 21
+    }
+  }, __jsx(_Projects__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 25
+    }
+  })))), __jsx("footer", {
+    className: "text-muted",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 13
+    }
+  }, __jsx("div", {
+    className: "footerIcon",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 21
+    }
+  }, __jsx("i", {
+    className: "fa fa-linkedin-square",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 25
+    }
+  }, __jsx("a", {
+    href: "https://www.linkedin.com/in/maria-tripoli-b836b167/",
+    className: "link",
+    rel: "noopener noreferrer",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 29
+    }
+  }))), __jsx("div", {
+    className: "footerIcon",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 21
+    }
+  }, __jsx("i", {
+    className: "fa fa-github",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 25
+    }
+  }, __jsx("a", {
+    href: "https://github.com/meatripoli",
+    className: "link",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 29
+    }
+  }))), __jsx("div", {
+    className: "footerIcon",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 21
+    }
+  }, __jsx("i", {
+    className: "fa fa-stack-overflow",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 25
+    }
+  }, __jsx("a", {
+    href: "https://stackoverflow.com/users/11912060/maria?tab=profile",
+    className: "link",
+    rel: "noopener noreferrer",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 29
+    }
+  }))), __jsx("div", {
+    className: "footerIcon",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 21
+    }
+  }, __jsx("i", {
+    className: "fas fa-file-pdf",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 25
+    }
+  }, __jsx("a", {
+    href: "https://drive.google.com/file/d/1SABfCkzigMpCX7RwpzlwSec1IUrbL7l7/view?usp=sharing",
+    className: "link",
+    rel: "noopener noreferrer",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 29
+    }
+  }))))));
+});
+
+/***/ }),
+
+/***/ "./components/Projects.js":
+/*!********************************!*\
+  !*** ./components/Projects.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
+var _this = undefined,
+    _jsxFileName = "/Users/meatripoli/ClassWork/Portfolio_NextJS/components/Projects.js";
+
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
+      show = _useState[0],
+      setShow = _useState[1];
+
+  var _useState2 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(0),
+      index = _useState2[0],
+      setIndex = _useState2[1];
+
+  var handleSelect = function handleSelect(selectedIndex, e) {
+    setIndex(selectedIndex);
+  };
+
+  var handleModal = function handleModal() {
+    return show ? setShow(false) : setShow(true);
+  };
+
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Button"], {
+    variant: "link",
+    onClick: handleModal,
+    style: {
+      color: 'darkslateblue'
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 9
+    }
+  }, "Work"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 9
+    }
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"], {
+    indicators: false,
+    slide: false,
+    activeIndex: index,
+    onSelect: handleSelect,
+    style: show ? {
+      display: 'inherit',
+      background: 'none',
+      border: 'none'
+    } : {
+      display: 'none',
+      background: 'none'
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 13
+    }
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"].Item, {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15,
       columnNumber: 17
     }
-  }, __jsx("h5", {
+  }, __jsx("img", {
+    className: "figure-img rounded float-left",
+    src: "/img/dogtraining.png",
+    alt: "",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16,
       columnNumber: 21
     }
-  }, "FULL-STACK DEVELOPER")), __jsx(_AboutModal__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"].Caption, {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 21
+    }
+  }, __jsx("h3", {
+    className: "carouselStyle",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18,
-      columnNumber: 17
+      columnNumber: 25
     }
-  }), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Button"], {
-    variant: "link",
+  }, "Dog Training Manager App"), __jsx("footer", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19,
-      columnNumber: 17
+      columnNumber: 25
     }
-  }, "Skills"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Button"], {
-    variant: "link",
+  }, __jsx("a", {
+    href: "https://dog-training-manager.herokuapp.com/dogs",
+    className: "carouselStyle",
+    rel: "noopener noreferrer",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20,
+      columnNumber: 29
+    }
+  }, "Demo"), __jsx("a", {
+    href: "https://github.com/meatripoli/FinalProject_Next",
+    className: "carouselStyle",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 29
+    }
+  }, "Repo")))), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"].Item, {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
       columnNumber: 17
     }
-  }, "Work")), __jsx("footer", {
-    className: "text-muted",
+  }, __jsx("img", {
+    className: "figure-img rounded float-left",
+    src: "/img/Pic1.png",
+    alt: "",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 21
+    }
+  }), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"].Caption, {
+    style: {
+      background: 'white'
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 21
+    }
+  }, __jsx("h3", {
+    className: "carouselStyle",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 25
+    }
+  }, "Employee Directory App"), __jsx("footer", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 25
+    }
+  }, __jsx("a", {
+    href: "https://still-taiga-58652.herokuapp.com/",
+    className: "carouselStyle",
+    rel: "noopener noreferrer",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 29
+    }
+  }, "Demo"), __jsx("a", {
+    href: "https://github.com/meatripoli/EmployeeDirectory_React",
+    className: "carouselStyle",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 29
+    }
+  }, "Repo")))), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"].Item, {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 17
+    }
+  }, __jsx("img", {
+    className: "figure-img rounded float-left",
+    src: "/img/Pic10.png",
+    alt: "",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 21
+    }
+  }), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"].Caption, {
+    style: {
+      background: 'white'
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 21
+    }
+  }, __jsx("h3", {
+    className: "carouselStyle",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 21
+    }
+  }, "HiFi"), __jsx("footer", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 21
+    }
+  }, __jsx("a", {
+    href: "https://nameless-lowlands-48961.herokuapp.com/login",
+    className: "carouselStyle",
+    rel: "noopener noreferrer",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 25
+    }
+  }, "Demo"), __jsx("a", {
+    href: "https://github.com/meatripoli/HiFi",
+    className: "carouselStyle",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 25
+    }
+  }, "Repo")))), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"].Item, {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 17
+    }
+  }, __jsx("img", {
+    className: "figure-img rounded float-left",
+    src: "/img/Pic11.png",
+    alt: "",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 21
+    }
+  }), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"].Caption, {
+    style: {
+      background: 'white'
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 21
+    }
+  }, __jsx("h3", {
+    className: "carouselStyle",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 25
+    }
+  }, "Password Generator"), __jsx("footer", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 25
+    }
+  }, __jsx("a", {
+    href: "https://meatripoli.github.io/PasswordGenerator/",
+    className: "carouselStyle",
+    rel: "noopener noreferrer",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 29
+    }
+  }, "Demo"), __jsx("a", {
+    href: "https://github.com/meatripoli/PasswordGenerator",
+    className: "carouselStyle",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 29
+    }
+  }, "Repo")))), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"].Item, {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 17
+    }
+  }, __jsx("img", {
+    className: "figure-img rounded float-left",
+    src: "/img/Pic9.png",
+    alt: "",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 21
+    }
+  }), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"].Caption, {
+    style: {
+      background: 'white'
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 21
+    }
+  }, __jsx("h3", {
+    className: "carouselStyle",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58,
+      columnNumber: 25
+    }
+  }, "Mortgage Calculator"), __jsx("footer", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59,
+      columnNumber: 25
+    }
+  }, __jsx("a", {
+    href: "https://github.com/meatripoli/ChallengeMortgageCalculator",
+    className: "carouselStyle",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60,
+      columnNumber: 29
+    }
+  }, "Repo")))))));
+});
+
+/***/ }),
+
+/***/ "./components/SkillsTab.js":
+/*!*********************************!*\
+  !*** ./components/SkillsTab.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
+var _this = undefined,
+    _jsxFileName = "/Users/meatripoli/ClassWork/Portfolio_NextJS/components/SkillsTab.js";
+
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
+      show = _useState[0],
+      setShow = _useState[1];
+
+  var handleModal = function handleModal() {
+    return show ? setShow(false) : setShow(true);
+  };
+
+  var myTooltip = function myTooltip(text) {
+    return __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Tooltip"], {
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 7,
+        columnNumber: 33
+      }
+    }, text);
+  };
+
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Button"], {
+    variant: "link",
+    onClick: handleModal,
+    style: {
+      color: 'darkslateblue'
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 9
+    }
+  }, "Skills"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], {
+    style: show ? {
+      display: 'inherit',
+      background: 'none',
+      border: 'none'
+    } : {
+      display: 'none',
+      background: 'none'
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 13
+    }
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["OverlayTrigger"], {
+    placement: "top",
+    overlay: myTooltip('Javascript'),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 17
+    }
+  }, __jsx("img", {
+    className: "skilsIcon",
+    src: "/img/javascript-js-seeklogo.com.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 21
+    }
+  })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["OverlayTrigger"], {
+    placement: "top",
+    overlay: myTooltip('Bootstrap'),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 17
+    }
+  }, __jsx("img", {
+    className: "skilsIcon",
+    src: "/img/bootstrap-seeklogo.com.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 21
+    }
+  })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["OverlayTrigger"], {
+    placement: "top",
+    overlay: myTooltip('Node.js'),
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22,
+      columnNumber: 17
+    }
+  }, __jsx("img", {
+    className: "skilsIcon",
+    src: "/img/nodejs-seeklogo.com.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 21
+    }
+  })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["OverlayTrigger"], {
+    placement: "top",
+    overlay: myTooltip('MS SQL database'),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 17
+    }
+  }, __jsx("img", {
+    className: "skilsIcon",
+    src: "/img/microsoft-sql-server-seeklogo.com.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 21
+    }
+  }))), __jsx("div", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
       columnNumber: 13
     }
-  }, "LinkedIn, GitHub, Resume Links")));
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["OverlayTrigger"], {
+    placement: "top",
+    overlay: myTooltip('MySQL'),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 17
+    }
+  }, __jsx("img", {
+    className: "skilsIcon",
+    src: "/img/mysql-5.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 21
+    }
+  })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["OverlayTrigger"], {
+    placement: "top",
+    overlay: myTooltip('HTML'),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 17
+    }
+  }, __jsx("img", {
+    className: "skilsIcon",
+    src: "/img/html5-2.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 21
+    }
+  })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["OverlayTrigger"], {
+    placement: "top",
+    overlay: myTooltip('CSS'),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 17
+    }
+  }, __jsx("img", {
+    className: "skilsIcon",
+    style: {
+      width: '100px'
+    },
+    src: "/img/css-5.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 21
+    }
+  })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["OverlayTrigger"], {
+    placement: "top",
+    overlay: myTooltip('Heroku'),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 17
+    }
+  }, __jsx("img", {
+    className: "skilsIcon",
+    src: "/img/heroku.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 21
+    }
+  }))), __jsx("div", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 13
+    }
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["OverlayTrigger"], {
+    placement: "top",
+    overlay: myTooltip('Tableau'),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 17
+    }
+  }, __jsx("img", {
+    className: "skilsIcon",
+    src: "/img/tableau-software.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59,
+      columnNumber: 21
+    }
+  })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["OverlayTrigger"], {
+    placement: "top",
+    overlay: myTooltip('React'),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61,
+      columnNumber: 17
+    }
+  }, __jsx("img", {
+    className: "skilsIcon",
+    src: "/img/react-seeklogo.com.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64,
+      columnNumber: 21
+    }
+  })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["OverlayTrigger"], {
+    placement: "top",
+    overlay: myTooltip('npm'),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66,
+      columnNumber: 17
+    }
+  }, __jsx("img", {
+    className: "skilsIcon",
+    style: {
+      width: '100px'
+    },
+    src: "/img/npm-node-package-manager.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 21
+    }
+  })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["OverlayTrigger"], {
+    placement: "top",
+    overlay: myTooltip('jQuery'),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71,
+      columnNumber: 17
+    }
+  }, __jsx("img", {
+    className: "skilsIcon",
+    src: "/img/jquery-seeklogo.com.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74,
+      columnNumber: 21
+    }
+  }))), __jsx("div", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77,
+      columnNumber: 13
+    }
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["OverlayTrigger"], {
+    placement: "top",
+    overlay: myTooltip('MongoDB'),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78,
+      columnNumber: 17
+    }
+  }, __jsx("img", {
+    className: "skilsIcon",
+    src: "/img/mongodb.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81,
+      columnNumber: 21
+    }
+  })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["OverlayTrigger"], {
+    placement: "top",
+    overlay: myTooltip('git'),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 83,
+      columnNumber: 17
+    }
+  }, __jsx("img", {
+    className: "skilsIcon",
+    src: "/img/git-icon.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 86,
+      columnNumber: 21
+    }
+  })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["OverlayTrigger"], {
+    placement: "top",
+    overlay: myTooltip('python'),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 88,
+      columnNumber: 17
+    }
+  }, __jsx("img", {
+    className: "skilsIcon",
+    style: {
+      width: '100px'
+    },
+    src: "/img/python-5.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 91,
+      columnNumber: 21
+    }
+  })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["OverlayTrigger"], {
+    placement: "top",
+    overlay: myTooltip('java'),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 93,
+      columnNumber: 17
+    }
+  }, __jsx("img", {
+    className: "skilsIcon",
+    src: "/img/java-14.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 96,
+      columnNumber: 21
+    }
+  })))));
 });
 
 /***/ }),
@@ -16533,7 +17438,7 @@ function Home() {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!****************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fmeatripoli%2FClassWork%2FPortfolio_NextJS%2Fpages%2Findex.js ***!
   \****************************************************************************************************************************************/
@@ -16556,5 +17461,5 @@ module.exports = dll_0fb095e325d7ebf261c3;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
