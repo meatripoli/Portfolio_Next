@@ -1,13 +1,12 @@
 import {Button,Container,OverlayTrigger,Tooltip} from 'react-bootstrap';
 import {useState} from 'react';
 
-export default () => {
-    const [show, setShow] = useState(false);
-    const handleModal = () => show?setShow(false):setShow(true);
+export default (props) => {
+
     const myTooltip = (text) => <Tooltip >{text}</Tooltip>
     return(<>
-        <Button variant="link" onClick={handleModal} style={{color: 'darkslateblue',fontSize: '25px'}}>Skills</Button>
-        <Container style={show?{display:'inherit',background:'none',border:'none'}:{display:'none',background:'none'}}>
+        <Button variant="link" onClick={()=>props.animation(props.tabID)} style={{color: 'darkslateblue',fontSize: '25px'}}>Skills</Button>
+        <Container style={props.show?{display:'inherit',background:'none',border:'none'}:{display:'none',background:'none'}}>
             <div>
                 <OverlayTrigger 
                 placement="top"

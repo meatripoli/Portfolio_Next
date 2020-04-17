@@ -2,8 +2,34 @@ import { Nav,Card } from 'react-bootstrap';
 import SkillsTab from './SkillsTab';
 import AboutTab from './AboutTab';
 import Project from './Projects';
+import {useState} from 'react';
 
 export default () => {
+    let initialState={
+        about:false,
+        skills:false,
+        work:false,
+    }
+    const [state, setState] = useState(initialState)
+    const handleOpen = (tabName)=>{
+        console.log('inside open fn')
+        console.log('before',state)
+        setState({[tabName]:state[tabName]?false:true});
+        console.log('after',state)
+    };
+    const handleClose = ()=>{
+        console.log('inside close fn')
+        console.log('before',state)
+        setState(initialState)
+        console.log('after',state)
+    };
+    const handleStateChange =(tabName)=>{
+        console.log('inside change state fn')
+        //first we close all tabs
+        handleClose();
+        //open only tab that is being clicked
+        handleOpen(tabName);
+    }
     return  <div className='centeredJumbotron' style={{background:'none'}}>
         <Card className="text-center" style={{background:'none', border:'none'}}>
             <Card.Body>
@@ -17,13 +43,13 @@ export default () => {
                 </Card.Title>
                 <Nav variant="tabs" className="justify-content-center">
                     <Nav.Item as="li">
-                        <AboutTab/>
+                        <AboutTab tabID='about' show={state.about} animation={handleStateChange}/>
                     </Nav.Item>
                     <Nav.Item as="li">
-                        <SkillsTab/>
+                        <SkillsTab tabID='skills' show={state.skills} animation={handleStateChange}/>
                     </Nav.Item>
                     <Nav.Item as="li">
-                        <Project/>
+                        <Project tabID='work' show={state.work} animation={handleStateChange}/>
                     </Nav.Item>  
                 </Nav>
             </Card.Body>

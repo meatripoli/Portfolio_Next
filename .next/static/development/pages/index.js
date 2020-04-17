@@ -18,19 +18,12 @@ var _this = undefined,
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-
-/* harmony default export */ __webpack_exports__["default"] = (function () {
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
-      show = _useState[0],
-      setShow = _useState[1];
-
-  var handleModal = function handleModal() {
-    return show ? setShow(false) : setShow(true);
-  };
-
+/* harmony default export */ __webpack_exports__["default"] = (function (props) {
   return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Button"], {
     variant: "link",
-    onClick: handleModal,
+    onClick: function onClick() {
+      return props.animation(props.tabID);
+    },
     style: {
       color: 'darkslateblue',
       fontSize: '25px'
@@ -38,11 +31,11 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8,
+      lineNumber: 7,
       columnNumber: 9
     }
   }, "About"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Card"], {
-    style: show ? {
+    style: props.show ? {
       display: 'inherit',
       background: 'none',
       border: 'none'
@@ -53,28 +46,28 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
+      lineNumber: 8,
       columnNumber: 9
     }
   }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Card"].Body, {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10,
+      lineNumber: 9,
       columnNumber: 13
     }
   }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
+      lineNumber: 10,
       columnNumber: 17
     }
   }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 11,
       columnNumber: 21
     }
   }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
@@ -83,7 +76,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
+      lineNumber: 12,
       columnNumber: 25
     }
   }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -97,7 +90,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 13,
       columnNumber: 29
     }
   })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
@@ -106,56 +99,56 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
+      lineNumber: 15,
       columnNumber: 25
     }
   }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 16,
       columnNumber: 29
     }
   }, __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 17,
       columnNumber: 33
     }
   }, "Hi! I'm Maria, an inquisitive, bilingual web developer who enjoys solving programming challenges, collaboration, and excited to leverage my skills as part of a fast-paced, quality-driven team in order to build better experiences on the web."), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
+      lineNumber: 23,
       columnNumber: 33
     }
   }, "I was born in Italy and moved to the United States when I was 10 years old. I graduated from Florida Tech with a BS degree in Electrical Engineering but my career path quickly moved to more software roles."), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 28,
       columnNumber: 33
     }
   }, "Outside of my professional career, my main hobby involves training dogs. I have participated in agility and tracking events with my personal dog and have helped dog owners with obedience training and dog behavior modification.")), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 34,
       columnNumber: 29
     }
   }, __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 35,
       columnNumber: 33
     }
   }, "GET IN TOUCH!")), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
+      lineNumber: 39,
       columnNumber: 29
     }
   }, __jsx("a", {
@@ -163,21 +156,21 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
+      lineNumber: 40,
       columnNumber: 33
     }
   }, "meatripoli@gmail.com")), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43,
+      lineNumber: 42,
       columnNumber: 29
     }
   }, __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44,
+      lineNumber: 43,
       columnNumber: 33
     }
   }, "(321) 431-0659"))))))));
@@ -236,22 +229,58 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
-/* harmony import */ var _SkillsTab__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./SkillsTab */ "./components/SkillsTab.js");
-/* harmony import */ var _AboutTab__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./AboutTab */ "./components/AboutTab.js");
-/* harmony import */ var _Projects__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Projects */ "./components/Projects.js");
+/* harmony import */ var _babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
+/* harmony import */ var _SkillsTab__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./SkillsTab */ "./components/SkillsTab.js");
+/* harmony import */ var _AboutTab__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./AboutTab */ "./components/AboutTab.js");
+/* harmony import */ var _Projects__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Projects */ "./components/Projects.js");
+
+
 var _this = undefined,
     _jsxFileName = "/Users/meatripoli/ClassWork/PortfolioNextjs/components/MyJumbotron.js";
 
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
 
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
+  var initialState = {
+    about: false,
+    skills: false,
+    work: false
+  };
+
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(initialState),
+      state = _useState[0],
+      setState = _useState[1];
+
+  var handleOpen = function handleOpen(tabName) {
+    console.log('inside open fn');
+    console.log('before', state);
+    setState(Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])({}, tabName, state[tabName] ? false : true));
+    console.log('after', state);
+  };
+
+  var handleClose = function handleClose() {
+    console.log('inside close fn');
+    console.log('before', state);
+    setState(initialState);
+    console.log('after', state);
+  };
+
+  var handleStateChange = function handleStateChange(tabName) {
+    console.log('inside change state fn'); //first we close all tabs
+
+    handleClose(); //open only tab that is being clicked
+
+    handleOpen(tabName);
+  };
+
   return __jsx("div", {
     className: "centeredJumbotron",
     style: {
@@ -260,10 +289,10 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7,
+      lineNumber: 33,
       columnNumber: 13
     }
-  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Card"], {
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Card"], {
     className: "text-center",
     style: {
       background: 'none',
@@ -272,21 +301,21 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8,
+      lineNumber: 34,
       columnNumber: 9
     }
-  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Card"].Body, {
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Card"].Body, {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
+      lineNumber: 35,
       columnNumber: 13
     }
-  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Card"].Title, {
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Card"].Title, {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10,
+      lineNumber: 36,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -296,7 +325,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
+      lineNumber: 37,
       columnNumber: 21
     }
   }, "MARIA TRIPOLI"), __jsx("div", {
@@ -306,61 +335,70 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 40,
       columnNumber: 21
     }
-  }, "FULL-STACK DEVELOPER")), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Nav"], {
+  }, "FULL-STACK DEVELOPER")), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"], {
     variant: "tabs",
     className: "justify-content-center",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 44,
       columnNumber: 17
     }
-  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Nav"].Item, {
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Item, {
     as: "li",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 45,
       columnNumber: 21
     }
-  }, __jsx(_AboutTab__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, __jsx(_AboutTab__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    tabID: "about",
+    show: state.about,
+    animation: handleStateChange,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 46,
       columnNumber: 25
     }
-  })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Nav"].Item, {
+  })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Item, {
     as: "li",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 48,
       columnNumber: 21
     }
-  }, __jsx(_SkillsTab__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, __jsx(_SkillsTab__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    tabID: "skills",
+    show: state.skills,
+    animation: handleStateChange,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
+      lineNumber: 49,
       columnNumber: 25
     }
-  })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Nav"].Item, {
+  })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Item, {
     as: "li",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
+      lineNumber: 51,
       columnNumber: 21
     }
-  }, __jsx(_Projects__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, __jsx(_Projects__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    tabID: "work",
+    show: state.work,
+    animation: handleStateChange,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 52,
       columnNumber: 25
     }
   })))), __jsx("footer", {
@@ -368,7 +406,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 56,
       columnNumber: 13
     }
   }, __jsx("a", {
@@ -379,7 +417,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 57,
       columnNumber: 17
     }
   }, __jsx("i", {
@@ -387,7 +425,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 58,
       columnNumber: 21
     }
   })), __jsx("a", {
@@ -397,7 +435,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 60,
       columnNumber: 17
     }
   }, __jsx("i", {
@@ -405,7 +443,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 61,
       columnNumber: 21
     }
   })), __jsx("a", {
@@ -416,7 +454,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 63,
       columnNumber: 17
     }
   }, __jsx("i", {
@@ -424,7 +462,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 64,
       columnNumber: 21
     }
   })), __jsx("a", {
@@ -435,7 +473,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
+      lineNumber: 66,
       columnNumber: 17
     }
   }, __jsx("i", {
@@ -443,7 +481,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
+      lineNumber: 67,
       columnNumber: 21
     }
   })))));
@@ -470,26 +508,20 @@ var _this = undefined,
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-/* harmony default export */ __webpack_exports__["default"] = (function () {
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
-      show = _useState[0],
-      setShow = _useState[1];
-
-  var _useState2 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(0),
-      index = _useState2[0],
-      setIndex = _useState2[1];
+/* harmony default export */ __webpack_exports__["default"] = (function (props) {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(0),
+      index = _useState[0],
+      setIndex = _useState[1];
 
   var handleSelect = function handleSelect(selectedIndex, e) {
     setIndex(selectedIndex);
   };
 
-  var handleModal = function handleModal() {
-    return show ? setShow(false) : setShow(true);
-  };
-
   return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Button"], {
     variant: "link",
-    onClick: handleModal,
+    onClick: function onClick() {
+      return props.animation(props.tabID);
+    },
     style: {
       color: 'darkslateblue',
       fontSize: '25px'
@@ -497,14 +529,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 11,
       columnNumber: 9
     }
   }, "Work"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
+      lineNumber: 12,
       columnNumber: 9
     }
   }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"], {
@@ -512,7 +544,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     slide: false,
     activeIndex: index,
     onSelect: handleSelect,
-    style: show ? {
+    style: props.show ? {
       display: 'inherit',
       background: 'none',
       border: 'none'
@@ -523,14 +555,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 13,
       columnNumber: 13
     }
   }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"].Item, {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
+      lineNumber: 14,
       columnNumber: 17
     }
   }, __jsx("img", {
@@ -540,14 +572,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
+      lineNumber: 15,
       columnNumber: 21
     }
   }), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"].Caption, {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 16,
       columnNumber: 21
     }
   }, __jsx("h3", {
@@ -555,14 +587,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 17,
       columnNumber: 25
     }
   }, "Dog Training Manager App"), __jsx("footer", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 18,
       columnNumber: 25
     }
   }, __jsx("a", {
@@ -573,7 +605,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 19,
       columnNumber: 29
     }
   }, "Demo"), __jsx("a", {
@@ -583,14 +615,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 20,
       columnNumber: 29
     }
   }, "Repo")))), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"].Item, {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
+      lineNumber: 24,
       columnNumber: 17
     }
   }, __jsx("img", {
@@ -600,7 +632,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 25,
       columnNumber: 21
     }
   }), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"].Caption, {
@@ -610,7 +642,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 26,
       columnNumber: 21
     }
   }, __jsx("h3", {
@@ -618,14 +650,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 27,
       columnNumber: 25
     }
   }, "Employee Directory App"), __jsx("footer", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 28,
       columnNumber: 25
     }
   }, __jsx("a", {
@@ -636,7 +668,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 29,
       columnNumber: 29
     }
   }, "Demo"), __jsx("a", {
@@ -646,14 +678,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 30,
       columnNumber: 29
     }
   }, "Repo")))), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"].Item, {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 34,
       columnNumber: 17
     }
   }, __jsx("img", {
@@ -663,7 +695,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 35,
       columnNumber: 21
     }
   }), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"].Caption, {
@@ -673,7 +705,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 36,
       columnNumber: 21
     }
   }, __jsx("h3", {
@@ -681,14 +713,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 37,
       columnNumber: 21
     }
   }, "HiFi"), __jsx("footer", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 38,
       columnNumber: 21
     }
   }, __jsx("a", {
@@ -699,7 +731,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
+      lineNumber: 39,
       columnNumber: 25
     }
   }, "Demo"), __jsx("a", {
@@ -709,14 +741,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
+      lineNumber: 40,
       columnNumber: 25
     }
   }, "Repo")))), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"].Item, {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
+      lineNumber: 44,
       columnNumber: 17
     }
   }, __jsx("img", {
@@ -726,7 +758,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
+      lineNumber: 45,
       columnNumber: 21
     }
   }), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"].Caption, {
@@ -736,7 +768,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
+      lineNumber: 46,
       columnNumber: 21
     }
   }, __jsx("h3", {
@@ -744,14 +776,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48,
+      lineNumber: 47,
       columnNumber: 25
     }
   }, "Password Generator"), __jsx("footer", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
+      lineNumber: 48,
       columnNumber: 25
     }
   }, __jsx("a", {
@@ -762,7 +794,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50,
+      lineNumber: 49,
       columnNumber: 29
     }
   }, "Demo"), __jsx("a", {
@@ -772,14 +804,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
+      lineNumber: 50,
       columnNumber: 29
     }
   }, "Repo")))), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"].Item, {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
+      lineNumber: 54,
       columnNumber: 17
     }
   }, __jsx("img", {
@@ -789,7 +821,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56,
+      lineNumber: 55,
       columnNumber: 21
     }
   }), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Carousel"].Caption, {
@@ -799,7 +831,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57,
+      lineNumber: 56,
       columnNumber: 21
     }
   }, __jsx("h3", {
@@ -807,14 +839,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58,
+      lineNumber: 57,
       columnNumber: 25
     }
   }, "Mortgage Calculator"), __jsx("footer", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59,
+      lineNumber: 58,
       columnNumber: 25
     }
   }, __jsx("a", {
@@ -824,7 +856,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60,
+      lineNumber: 59,
       columnNumber: 29
     }
   }, "Repo")))))));
@@ -851,21 +883,13 @@ var _this = undefined,
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-/* harmony default export */ __webpack_exports__["default"] = (function () {
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
-      show = _useState[0],
-      setShow = _useState[1];
-
-  var handleModal = function handleModal() {
-    return show ? setShow(false) : setShow(true);
-  };
-
+/* harmony default export */ __webpack_exports__["default"] = (function (props) {
   var myTooltip = function myTooltip(text) {
     return __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Tooltip"], {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 7,
+        lineNumber: 6,
         columnNumber: 33
       }
     }, text);
@@ -873,7 +897,9 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
   return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Button"], {
     variant: "link",
-    onClick: handleModal,
+    onClick: function onClick() {
+      return props.animation(props.tabID);
+    },
     style: {
       color: 'darkslateblue',
       fontSize: '25px'
@@ -881,11 +907,11 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
+      lineNumber: 8,
       columnNumber: 9
     }
   }, "Skills"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], {
-    style: show ? {
+    style: props.show ? {
       display: 'inherit',
       background: 'none',
       border: 'none'
@@ -896,14 +922,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10,
+      lineNumber: 9,
       columnNumber: 9
     }
   }, __jsx("div", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
+      lineNumber: 10,
       columnNumber: 13
     }
   }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["OverlayTrigger"], {
@@ -912,7 +938,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 11,
       columnNumber: 17
     }
   }, __jsx("img", {
@@ -921,7 +947,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
+      lineNumber: 14,
       columnNumber: 21
     }
   })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["OverlayTrigger"], {
@@ -930,7 +956,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 16,
       columnNumber: 17
     }
   }, __jsx("img", {
@@ -939,7 +965,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 19,
       columnNumber: 21
     }
   })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["OverlayTrigger"], {
@@ -948,7 +974,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 21,
       columnNumber: 17
     }
   }, __jsx("img", {
@@ -957,7 +983,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
+      lineNumber: 24,
       columnNumber: 21
     }
   })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["OverlayTrigger"], {
@@ -966,7 +992,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 26,
       columnNumber: 17
     }
   }, __jsx("img", {
@@ -975,14 +1001,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 29,
       columnNumber: 21
     }
   }))), __jsx("div", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 32,
       columnNumber: 13
     }
   }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["OverlayTrigger"], {
@@ -991,7 +1017,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 33,
       columnNumber: 17
     }
   }, __jsx("img", {
@@ -1000,7 +1026,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 36,
       columnNumber: 21
     }
   })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["OverlayTrigger"], {
@@ -1009,7 +1035,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 38,
       columnNumber: 17
     }
   }, __jsx("img", {
@@ -1018,7 +1044,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
+      lineNumber: 41,
       columnNumber: 21
     }
   })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["OverlayTrigger"], {
@@ -1027,7 +1053,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44,
+      lineNumber: 43,
       columnNumber: 17
     }
   }, __jsx("img", {
@@ -1039,7 +1065,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
+      lineNumber: 46,
       columnNumber: 21
     }
   })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["OverlayTrigger"], {
@@ -1048,7 +1074,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
+      lineNumber: 48,
       columnNumber: 17
     }
   }, __jsx("img", {
@@ -1057,14 +1083,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52,
+      lineNumber: 51,
       columnNumber: 21
     }
   }))), __jsx("div", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
+      lineNumber: 54,
       columnNumber: 13
     }
   }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["OverlayTrigger"], {
@@ -1073,7 +1099,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56,
+      lineNumber: 55,
       columnNumber: 17
     }
   }, __jsx("img", {
@@ -1082,7 +1108,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59,
+      lineNumber: 58,
       columnNumber: 21
     }
   })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["OverlayTrigger"], {
@@ -1091,7 +1117,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61,
+      lineNumber: 60,
       columnNumber: 17
     }
   }, __jsx("img", {
@@ -1100,7 +1126,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64,
+      lineNumber: 63,
       columnNumber: 21
     }
   })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["OverlayTrigger"], {
@@ -1109,7 +1135,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66,
+      lineNumber: 65,
       columnNumber: 17
     }
   }, __jsx("img", {
@@ -1121,7 +1147,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69,
+      lineNumber: 68,
       columnNumber: 21
     }
   })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["OverlayTrigger"], {
@@ -1130,7 +1156,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71,
+      lineNumber: 70,
       columnNumber: 17
     }
   }, __jsx("img", {
@@ -1139,14 +1165,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74,
+      lineNumber: 73,
       columnNumber: 21
     }
   }))), __jsx("div", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77,
+      lineNumber: 76,
       columnNumber: 13
     }
   }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["OverlayTrigger"], {
@@ -1155,7 +1181,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78,
+      lineNumber: 77,
       columnNumber: 17
     }
   }, __jsx("img", {
@@ -1164,7 +1190,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81,
+      lineNumber: 80,
       columnNumber: 21
     }
   })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["OverlayTrigger"], {
@@ -1173,7 +1199,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83,
+      lineNumber: 82,
       columnNumber: 17
     }
   }, __jsx("img", {
@@ -1182,7 +1208,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86,
+      lineNumber: 85,
       columnNumber: 21
     }
   })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["OverlayTrigger"], {
@@ -1191,7 +1217,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88,
+      lineNumber: 87,
       columnNumber: 17
     }
   }, __jsx("img", {
@@ -1203,7 +1229,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91,
+      lineNumber: 90,
       columnNumber: 21
     }
   })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["OverlayTrigger"], {
@@ -1212,7 +1238,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93,
+      lineNumber: 92,
       columnNumber: 17
     }
   }, __jsx("img", {
@@ -1221,7 +1247,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96,
+      lineNumber: 95,
       columnNumber: 21
     }
   })))));
@@ -1245,6 +1271,33 @@ function _assertThisInitialized(self) {
   }
 
   return self;
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/defineProperty.js ***!
+  \*******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _defineProperty; });
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
 }
 
 /***/ }),
@@ -17393,7 +17446,7 @@ function Home() {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!***************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fmeatripoli%2FClassWork%2FPortfolioNextjs%2Fpages%2Findex.js ***!
   \***************************************************************************************************************************************/
@@ -17416,5 +17469,5 @@ module.exports = dll_0fb095e325d7ebf261c3;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
