@@ -220,50 +220,29 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
       lineNumber: 28,
       columnNumber: 33
     }
-  }, "Outside of my professional career, my main hobby involves training dogs. I have participated in agility and tracking events with my personal dog and have helped dog owners with obedience training and dog behavior modification.")), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], {
+  }, "Outside of my professional career, my main hobbies involves dog training, working out, and tutoring people in topics like math, physics, and web development."), __jsx("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 29
-    }
-  }, __jsx("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 32,
       columnNumber: 33
     }
-  }, "GET IN TOUCH!")), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], {
+  }, "To get in touch you can call me at (321) 431-0659 or email me at ", __jsx("span", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 29
+      lineNumber: 33,
+      columnNumber: 102
     }
   }, __jsx("a", {
     href: "mailto:meatripoli@gmail.com?subject=Hi%20there!",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 33
+      lineNumber: 34,
+      columnNumber: 37
     }
-  }, "meatripoli@gmail.com")), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 29
-    }
-  }, __jsx("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43,
-      columnNumber: 33
-    }
-  }, "(321) 431-0659"))))))));
+  }, "meatripoli@gmail.com")), "."))))))));
 });
 
 /***/ }),

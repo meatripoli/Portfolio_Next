@@ -26,21 +26,14 @@ export default (props) => {
                                     but my career path quickly moved to more software roles.
                                 </p>
                                 <p>
-                                    Outside of my professional career, my main hobby involves training dogs. I have participated 
-                                    in agility and tracking events with my personal dog and have helped dog owners with obedience 
-                                    training and dog behavior modification.
+                                    Outside of my professional career, my main hobbies involves dog training, working out,
+                                    and tutoring people in topics like math, physics, and web development. 
                                 </p>
-                            </Row>
-                            <Row>
                                 <p>
-                                    GET IN TOUCH!
+                                    To get in touch you can call me at (321) 431-0659 or email me at <span>
+                                    <a href="mailto:meatripoli@gmail.com?subject=Hi%20there!">meatripoli@gmail.com</a></span>.
+                                    
                                 </p>
-                            </Row>
-                            <Row>
-                                <a href="mailto:meatripoli@gmail.com?subject=Hi%20there!">meatripoli@gmail.com</a>
-                            </Row>
-                            <Row>
-                                <p>(321) 431-0659</p>
                             </Row>
                         </Col>
                     </Row>
