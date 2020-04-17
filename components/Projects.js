@@ -9,7 +9,7 @@ export default () =>{
     };
     const handleModal = () => show?setShow(false):setShow(true);
     return (<>
-        <Button variant="link" onClick={handleModal} style={{color: 'darkslateblue'}}>Work</Button>
+        <Button variant="link" onClick={handleModal} style={{color: 'darkslateblue',fontSize: '25px'}}>Work</Button>
         <Container>
             <Carousel indicators={false} slide={false} activeIndex={index} onSelect={handleSelect} style={show?{display:'inherit',background:'none',border:'none'}:{display:'none',background:'none'}}>
                 <Carousel.Item>

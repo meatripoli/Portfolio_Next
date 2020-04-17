@@ -32,7 +32,8 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     variant: "link",
     onClick: handleModal,
     style: {
-      color: 'darkslateblue'
+      color: 'darkslateblue',
+      fontSize: '25px'
     },
     __self: _this,
     __source: {
@@ -288,62 +289,33 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
       lineNumber: 10,
       columnNumber: 17
     }
-  }, __jsx("h1", {
+  }, __jsx("div", {
+    style: {
+      fontSize: '100px'
+    },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11,
       columnNumber: 21
     }
-  }, "M", __jsx("span", {
+  }, "MARIA TRIPOLI"), __jsx("div", {
+    style: {
+      fontSize: '50px'
+    },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
-      columnNumber: 26
+      lineNumber: 14,
+      columnNumber: 21
     }
-  }, "A"), "R", __jsx("span", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12,
-      columnNumber: 41
-    }
-  }, "I"), "A", __jsx("span", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12,
-      columnNumber: 56
-    }
-  }, " "), " T", __jsx("span", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12,
-      columnNumber: 72
-    }
-  }, "R"), "I", __jsx("span", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 25
-    }
-  }, "P"), "O", __jsx("span", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 40
-    }
-  }, "L"), "I"), "FULL-STACK DEVELOPER"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Nav"], {
+  }, "FULL-STACK DEVELOPER")), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Nav"], {
     variant: "tabs",
     className: "justify-content-center",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 18,
       columnNumber: 17
     }
   }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Nav"].Item, {
@@ -351,14 +323,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 19,
       columnNumber: 21
     }
   }, __jsx(_AboutTab__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 20,
       columnNumber: 25
     }
   })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Nav"].Item, {
@@ -366,14 +338,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 22,
       columnNumber: 21
     }
   }, __jsx(_SkillsTab__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 23,
       columnNumber: 25
     }
   })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Nav"].Item, {
@@ -381,14 +353,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
+      lineNumber: 25,
       columnNumber: 21
     }
   }, __jsx(_Projects__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
+      lineNumber: 26,
       columnNumber: 25
     }
   })))), __jsx("footer", {
@@ -396,7 +368,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 30,
       columnNumber: 13
     }
   }, __jsx("a", {
@@ -407,7 +379,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 31,
       columnNumber: 17
     }
   }, __jsx("i", {
@@ -415,7 +387,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 32,
       columnNumber: 21
     }
   })), __jsx("a", {
@@ -425,7 +397,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 34,
       columnNumber: 17
     }
   }, __jsx("i", {
@@ -433,7 +405,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 35,
       columnNumber: 21
     }
   })), __jsx("a", {
@@ -444,7 +416,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 37,
       columnNumber: 17
     }
   }, __jsx("i", {
@@ -452,18 +424,18 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 38,
       columnNumber: 21
     }
   })), __jsx("a", {
-    href: "https://drive.google.com/file/d/1SABfCkzigMpCX7RwpzlwSec1IUrbL7l7/view?usp=sharing",
+    href: "https://drive.google.com/file/d/1Kb0Qh_zD7ZxqtYs68TN3GJxc5Ydm090C/view?usp=sharing",
     target: "_blank",
     className: "link footerIcon",
     rel: "noopener noreferrer",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 40,
       columnNumber: 17
     }
   }, __jsx("i", {
@@ -471,7 +443,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
+      lineNumber: 41,
       columnNumber: 21
     }
   })))));
@@ -519,7 +491,8 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     variant: "link",
     onClick: handleModal,
     style: {
-      color: 'darkslateblue'
+      color: 'darkslateblue',
+      fontSize: '25px'
     },
     __self: _this,
     __source: {
@@ -902,7 +875,8 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     variant: "link",
     onClick: handleModal,
     style: {
-      color: 'darkslateblue'
+      color: 'darkslateblue',
+      fontSize: '25px'
     },
     __self: _this,
     __source: {
@@ -17419,7 +17393,7 @@ function Home() {
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!***************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fmeatripoli%2FClassWork%2FPortfolioNextjs%2Fpages%2Findex.js ***!
   \***************************************************************************************************************************************/
@@ -17442,5 +17416,5 @@ module.exports = dll_0fb095e325d7ebf261c3;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

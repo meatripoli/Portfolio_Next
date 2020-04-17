@@ -8,11 +8,12 @@ export default () => {
         <Card className="text-center" style={{background:'none', border:'none'}}>
             <Card.Body>
                 <Card.Title>
-                    <h1 >
-                        M<span>A</span>R<span>I</span>A<span> </span> T<span>R</span>I
-                        <span>P</span>O<span>L</span>I
-                    </h1>
-                    FULL-STACK DEVELOPER
+                    <div style={{fontSize: '100px'}}>
+                        MARIA TRIPOLI
+                    </div>
+                    <div style={{fontSize: '50px'}}>
+                        FULL-STACK DEVELOPER
+                    </div>
                 </Card.Title>
                 <Nav variant="tabs" className="justify-content-center">
                     <Nav.Item as="li">

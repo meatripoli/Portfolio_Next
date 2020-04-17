@@ -5,7 +5,7 @@ export default () => {
     const [show, setShow] = useState(false);
     const handleModal = () => show?setShow(false):setShow(true);
     return(<>
-        <Button variant="link" onClick={handleModal} style={{color: 'darkslateblue'}}>About</Button>
+        <Button variant="link" onClick={handleModal} style={{color: 'darkslateblue',fontSize: '25px'}}>About</Button>
         <Card style={show?{display:'inherit',background:'none',border:'none'}:{display:'none',background:'none'}}>
             <Card.Body>
                 <Container>

@@ -6,7 +6,7 @@ export default () => {
     const handleModal = () => show?setShow(false):setShow(true);
     const myTooltip = (text) => <Tooltip >{text}</Tooltip>
     return(<>
-        <Button variant="link" onClick={handleModal} style={{color: 'darkslateblue'}}>Skills</Button>
+        <Button variant="link" onClick={handleModal} style={{color: 'darkslateblue',fontSize: '25px'}}>Skills</Button>
         <Container style={show?{display:'inherit',background:'none',border:'none'}:{display:'none',background:'none'}}>
             <div>
                 <OverlayTrigger 

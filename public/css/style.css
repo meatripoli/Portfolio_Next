@@ -42,6 +42,8 @@ body {
     -ms-flex-pack : center;
     -webkit-justify-content : center;
     justify-content : center;
+    font-family: 'Handlee', cursive;
+    font-size: larger;
 }
 .footerIcon{
     display:inline;
@@ -54,7 +56,7 @@ body {
     height:70px;
     margin-right: 20px;
     margin-bottom: 10px;
-    display:inline;
+    /* display:inline; */
 }
 .carouselStyle{
     color: darkslateblue;
