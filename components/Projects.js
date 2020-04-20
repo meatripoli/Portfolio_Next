@@ -2,7 +2,6 @@ import {Carousel,Button,Container } from 'react-bootstrap';
 import {useState} from 'react';
 
 export default (props) =>{
-
     const [index, setIndex] = useState(0);
     const handleSelect = (selectedIndex, e) => {
         setIndex(selectedIndex);
@@ -10,7 +9,12 @@ export default (props) =>{
     return (<>
         <Button variant="link" onClick={()=>props.animation(props.tabID)} style={{color: 'darkslateblue',fontSize: '25px'}}>Work</Button>
         <Container>
-            <Carousel indicators={false} slide={false} activeIndex={index} onSelect={handleSelect} style={props.show?{display:'inherit',background:'none',border:'none'}:{display:'none',background:'none'}}>
+            <Carousel 
+            indicators={false} 
+            slide={false} 
+            activeIndex={index} 
+            onSelect={handleSelect} 
+            className={props.show?'animated fadeIn':'styleBefore'}>
                 <Carousel.Item>
                     <img className="figure-img rounded float-left" src="/img/dogtraining.png" alt=""/>
                     <Carousel.Caption >

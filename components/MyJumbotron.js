@@ -34,10 +34,10 @@ export default () => {
         <Card className="text-center" style={{background:'none', border:'none'}}>
             <Card.Body>
                 <Card.Title>
-                    <div style={{fontSize: '100px'}}>
+                    <div style={{fontSize: '80px'}}>
                         MARIA TRIPOLI
                     </div>
-                    <div style={{fontSize: '50px'}}>
+                    <div style={{fontSize: '40px'}}>
                         FULL-STACK DEVELOPER
                     </div>
                 </Card.Title>
