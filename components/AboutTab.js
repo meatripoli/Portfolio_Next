@@ -1,11 +1,10 @@
 import {Button,Card,Image,Container, Row,Col} from 'react-bootstrap';
 
-
+const style={display:'inherit',background:'none',border:'none'}
 export default (props) => {
-
     return(<>
         <Button variant="link" onClick={()=>props.animation(props.tabID)} style={{color: 'darkslateblue',fontSize: '25px'}}>About</Button>
-        <Card style={props.show?{display:'inherit',background:'none',border:'none'}:{display:'none',background:'none'}}>
+        <Card className={props.show?'animated fadeIn':'styleBefore'} style = {style}>
             <Card.Body>
                 <Container>
                     <Row>
@@ -32,7 +31,6 @@ export default (props) => {
                                 <p>
                                     To get in touch you can call me at (321) 431-0659 or email me at <span>
                                     <a href="mailto:meatripoli@gmail.com?subject=Hi%20there!">meatripoli@gmail.com</a></span>.
-                                    
                                 </p>
                             </Row>
                         </Col>
