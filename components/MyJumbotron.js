@@ -54,7 +54,7 @@ export default () => {
                 </Nav>
             </Card.Body>
             <footer className="text-muted" >
-                <a href="https://www.linkedin.com/in/maria-tripoli-b836b167/" target="_blank" className="link footerIcon" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/mariatripoli/" target="_blank" className="link footerIcon" rel="noopener noreferrer">
                     <i className="fa fa-linkedin-square"></i>
                 </a>         
                 <a href="https://github.com/meatripoli" target="_blank" className="link footerIcon">
@@ -63,7 +63,7 @@ export default () => {
                 <a href="https://stackoverflow.com/users/11912060/maria?tab=profile" target="_blank" className="link footerIcon" rel="noopener noreferrer">
                     <i className="fa fa-stack-overflow"></i>
                 </a>              
-                <a href="https://drive.google.com/file/d/1Kb0Qh_zD7ZxqtYs68TN3GJxc5Ydm090C/view?usp=sharing" target="_blank" className="link footerIcon" rel="noopener noreferrer">
+                <a href="https://docs.google.com/document/d/e/2PACX-1vTGknYTTTBglOcshtdvGjmialu0pCdVoBMgz0SjzOAyk3Tbhwd15zdRq1IUI0ZB9eXlhqtJ66Mvvi3G/pub" target="_blank" className="link footerIcon" rel="noopener noreferrer">
                     <i className="fas fa-file-pdf"></i> 
                 </a>
             </footer>
